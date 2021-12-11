@@ -1,4 +1,6 @@
-# Nitro Ransomware - Proof of Concept
+# Nitro Ransomware
+[![CodeQL](https://github.com/Vichingo455/NitroRansomware/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Vichingo455/NitroRansomware/actions/workflows/codeql-analysis.yml)
+
 Uses Discord nitro gift subscription as ransom. C# Ransomware for educational purposes only
  
  ## About
